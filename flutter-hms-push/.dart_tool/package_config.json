@@ -146,13 +146,13 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "huawei_map",
+      "name": "huawei_push",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-10-22T09:15:32.368464Z",
+  "generated": "2024-10-22T09:16:16.421886Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///Users/tonyso/fvm/versions/3.24.3",

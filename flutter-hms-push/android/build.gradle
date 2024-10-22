@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "com.android.tools.build:gradle:3.6.0"
+        classpath 'com.android.tools.build:gradle:8.1.4'
     }
 }
 
@@ -21,16 +21,18 @@ rootProject.allprojects {
     }
 }
 
-apply plugin: "com.android.library"
+apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 33
-    buildToolsVersion '31.0.0'
+    namespace 'com.huawei.hms.flutter.push'
+
+    compileSdk 34
 
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 33
+        minSdkVersion 21
+        targetSdkVersion 34
     }
+
 
     lintOptions {
         disable "InvalidPackage"
